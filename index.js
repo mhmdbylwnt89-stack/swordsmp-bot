@@ -7,9 +7,11 @@ app.listen(process.env.PORT || 3000, () => console.log("الويب سيرفر ش
 
 function createBot() {
     const bot = mineflayer.createBot({
-        host: 'sword_smp2.aternos.me',
-        username: 'SWORD_24_7_BOT',
-        version: false
+         host: 'sword_smp2.aternos.me',
+    username: 'SWORD_24_7_tOT',
+    port: 20806,
+    version: false
+
     });
 
     bot.on('spawn', () => console.log('🤖 البوت داخل السيرفر حالياً وبدون أي مشاكل!'));
